@@ -24,9 +24,9 @@
 @media (min-width: 992px){
     .btn{
         display:flex;
-        width:40%;
+        width:30%;
         padding: 20px;
-        margin: 0px;
+        margin-left: 200px;
     }
 
     
