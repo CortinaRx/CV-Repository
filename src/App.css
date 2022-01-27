@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #006fa3;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+
+.btn{
+    width:50%;
+    align-items:center;
+    margin-left: 20px;
+
+}
+
+.pcontainer{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.pcontainer_1{
+    font-size:25px;
+    color: #444444;
+    background-color: #006fa3;
+    text-shadow: 1px 0px 1px #3a519b, 0px 1px 1px #6769ca, 2px 1px 1px #2b5883, 1px 2px 1px #EEEEEE, 3px 2px 1px #6b2727, 2px 3px 1px #EEEEEE, 4px 3px 1px #663a3a, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #581c1c, 5px 6px 1px #312727, 7px 6px 1px #3d2f2f;
+
+}
+
+.pcontainer_2{
+    margin-left:11px;
+    font-size:25px;
+    color: #444444;
+    background-color: #006fa3;
+    text-shadow: 1px 0px 1px #3a519b, 0px 1px 1px #6769ca, 2px 1px 1px #2b5883, 1px 2px 1px #EEEEEE, 3px 2px 1px #6b2727, 2px 3px 1px #EEEEEE, 4px 3px 1px #663a3a, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #581c1c, 5px 6px 1px #312727, 7px 6px 1px #3d2f2f;
+
+}
+
+@media (min-width: 992px){
+    .pcontainer_2{
+        margin-left:15px;
+    }
+}
+
+
+button {
+    align-items:center;
+    width:45%;
+    margin: auto;
+    border-radius: 10px solid black;
+    text-align: center;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+@media (min-width: 992px){
+     button{
+         width: 30%;
+         margin-left: 100px;
+         margin:center;
+         
+     }
+}
+
+@media (min-width: 992px){
+    .languages_container{
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 992px){
+    .skill_container{
+        margin-right: 30px;
+    }
+}
+
+.show__item{
+    padding:5px;
+    border: 3px solid;
+    background-color: rgb(81, 199, 219);
+    width: 80%;
+    
+    
+}
+
+@media (min-width: 992px){
+    .show__item{
+        width: 30%;
+    }
+}

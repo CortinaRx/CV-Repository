@@ -1,0 +1,23 @@
+.education_container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 5px;
+
+    
+    background-color: rgb(81, 199, 219);
+}
+
+.education_card{
+    background-color: rgb(81, 199, 219);
+
+}
+
+.education_card2{
+    text-align:center;
+    font-size: 14px;
+    background-color: rgb(81, 199, 219);
+
+} 
+
+
