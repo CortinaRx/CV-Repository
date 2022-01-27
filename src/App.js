@@ -22,13 +22,13 @@ function App() {
       </div>
      <div className="btn"> 
       <button
-        className="custom-btn btn-4"
+        className="custom-btn"
         onClick={() => setShowEducation(true)}
       >
         Education
       </button>
       <button
-        className="custom-btn btn-4"
+        className="custom-btn"
         onClick={() => setShowEducation(false)}
       >
         Experience
